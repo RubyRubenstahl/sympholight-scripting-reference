@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>SYMPHOLIGHT Scripting Reference</title>
+    <style>
+      .wrap{
+        width: 80%;
+        margin: auto;
+        max-width: 1000px;
+      }
+      @media (max-width: 600px){
+        .wrap{
+          width:100%;
+        }
+      }
+
+      a{
+        color:#7d7d7d;
+        text-decoration: none;
+      }
+      body{
+        color: #6b6b6b;
+        background-color: #004b80;
+        font-family: Roboto, sans-serif;
+      }
+      .card{
+        background-color:white;
+        border: 1px solid #DDD;
+        margin-bottom: 15px;
+        box-shadow: 2px 2px 5px #AAA;
+      }
+
+      .member-content{
+        padding: 10px;
+      }
+
+      .member-title{
+        color:#333;
+        font-weight: 200;
+        font-size: 20px;
+      }
+
+
+      .member-header{
+        background-color: #f5f5f5;
+        margin-top: 0;
+        padding: 10px;
+        border-bottom: 1px solid #dedede;
+        margin-bottom: 6px;
+      }
+
+      .member-summary{
+        margin-left: 35px;
+        color: #b9b9b9;
+      }
+
+      .member-title:before{
+        color: white;
+        font-size: 12px;
+        padding: 3px 6px;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-top: 0;
+        font-family: Roboto;
+        font-weight: 400;
+        display: inline-block;
+        position: relative;
+        top: -3px;
+      }
+
+
+      .memberType-type:before {
+
+        content: "T";
+        background-color: #6b0000;
+      }
+      .type-name{
+        color: #6b0000;
+      }
+
+
+      .memberType-property:before {
+        content: "P";
+        background-color: #00698c;
+      }
+      .property-name{
+        color: #00698c;
+      }
+
+      .memberType-method:before {
+        content: "M";
+        background-color: #a76100;
+      }
+      .method-name{
+        color: #a76100;
+      }
+      .search-bar{
+        width: 80%;
+        font-size: 23px;
+        color: #444;
+        outline: none;
+        /* border: 1px solid #ddd; */
+        margin-bottom: 16px;
+        border: none;
+        margin-top: 12px;
+        padding: 15px;
+      }
+
+      .params{
+        display: flex;
+        margin-bottom:20px;
+
+      }
+      .param-title{
+        margin-bottom: 15px;
+        height: 15px;
+        font-size: 1.1em;
+        font-weight: 100;
+        color: #c7c7c7;
+        display: inline-block;
+      }
+      .param-list{
+
+        padding:25px;
+      }
+      .param-name{
+        flex-basis:140px;
+        color: #4945e0;
+        flex-shrink: 0;
+      }
+      .param-type{
+        flex-basis: 140px;
+        flex-shrink: 0;
+        color: #53829e;
+      }
+      .param-description{
+        flex-grow:1;
+      }
+
+      .filters{
+        margin-bottom: 22px;
+        background-color: #FFF;
+        padding: 5px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+</html>

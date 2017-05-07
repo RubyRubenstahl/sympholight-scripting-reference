@@ -1,0 +1,27 @@
+{
+  "name": "SympholightDocs",
+  "version": "0.1.0",
+  "homepage": "http://kb.ecuetips.com/scripting-reference",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "comma-separated-tokens": "^1.0.3",
+    "material-ui": "^0.18.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-sticky": "^6.0.1",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT"
+}
